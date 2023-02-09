@@ -1,5 +1,8 @@
 # Dependencies
-* PHP 7.2.0 is the now the minimum
+* PHP 8.0 is the now the minimum
+
+# Api
+* \Mautic\Api\Api::getLogger now returns void as the LoggerAwareInterface dictates
 
 # Contacts
 * \Mautic\Api\Contacts::getEvents has been removed. Use \Mautic\Api\Contacts::getActivityForContact instead.
